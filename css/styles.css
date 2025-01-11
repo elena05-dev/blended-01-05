@@ -1,0 +1,64 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--Header--*/
+.header {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+
+}
+
+.nav-logo {
+    font: 700 30px / 0.93333 "Poppins", sans-serif;
+    color: #173a56;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    margin-left: 237px;
+}
+
+.header-list-item {
+    font: 400 16px / 1.75 "Poppins", sans-serif;
+    color: #22343d;
+}
+
+.header-list-link {}
+
+.header-list-btn {
+    display: flex;
+    gap: 30px;
+}
+
+.header-btn-item {}
+
+.header-btn-in {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+}
+
+.header-btn-itam {}
+
+.header-btn-up {
+    border-radius: 4px;
+    width: 113px;
+    height: 42px;
+    background: #02897a;
+}

@@ -4,39 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <a href="./index.html">
-            <img src="./images/logo.png" alt="logo">
-            Produkt
-        </a>
-        <nav>
-            <ul>
-                <li><a href="">Product</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Customers</a></li>
-                <li><a href="">Resources</a></li>
+    <header class="header">
+        <nav class="navigation">
+            <a class="nav-logo" href="./index.html">
+                <img src="./images/logo.png" alt="logo">
+                Produkt
+            </a>
+            <ul class="header-list">
+                <li class="header-list-item">
+                    <a href="./index.html" class="header-list-link">Product</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="./prasing.html" class="header-list-link">Pricing</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="./customers" class="header-list-link">Customers</a>
+                </li>
+                <li class="header-list-item">
+                    <a href="./resources" class="header-list-link">Resources</a>
+                </li>
             </ul>
         </nav>
-        <ul>
-            <li> <button type="button">Sign In</button></li>
-            <li> <button type="button">Sign Up</button></li>
+        <ul class="header-list-btn">
+            <li class="header-btn-item"> <button type="button" class="header-btn-in">Sign In</button></li>
+            <li class="header-btn-itam"> <button type="button" class="header-btn-up">Sign Up</button></li>
         </ul>
     </header>
 
 
     <main>
-        <h1>blended-01-05</h1>
-        <nav>
-            <!--  добавляю страницы -->
-            <a href="page2.html">Страница 2</a>
-            <a href="page3.html">Страница 3</a>
-        </nav>
-        <p>Это главная страница сайта.</p>
-
         <section>
             <h1>Work at the speed
                 of thought</h1>
